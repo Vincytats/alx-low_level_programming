@@ -4,7 +4,8 @@
 
 /**
 *main - this is a function
-*Return: number generated
+*Description: checks on the last digit of the assigned var 
+*Return: Always 0 (success)
 */
 /* more headers goes there */
 
