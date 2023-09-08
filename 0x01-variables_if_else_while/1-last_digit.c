@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
-*main - this is a function
-*Description: checks on the last digit of the assigned var 
+*main - this is a function 
 *Return: Always 0 (success)
 */
 /* more headers goes there */
