@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-*main - this is a function 
-*Return: Always 0 (success)
+*main - this is a function
+*Return: number generated
 */
 /* more headers goes there */
 
