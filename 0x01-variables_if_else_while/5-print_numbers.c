@@ -5,11 +5,12 @@
  */
 int main(void)
 {
-int number = 0;
-while (number <= 9)
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-putchar(number + '0');
-number++;
+if (letter != 'e' && letter != 'q')
+putchar(letter);
 }
+putchar('\n');
 return (0);
 }
