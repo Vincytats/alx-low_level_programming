@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-int number;
-putchar('0');
+putchar(48);
 putchar('\n');
-number = 1;
+int number = 1;
 while (number <= 9)
 {
-putchar(number + '0');
+putchar(number + 48);
 putchar('\n');
 number++;
 }
