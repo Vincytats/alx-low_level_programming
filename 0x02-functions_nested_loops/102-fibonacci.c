@@ -5,18 +5,22 @@
  */
 int main(void)
 {
-int n = 50;
-long long int fib[n];
-fib[0] = 1;
-fib[1] = 2;
-for (int i = 2; i < n; i++)
+int i = 0;
+long j = 1, k = 2;
+while (i < 50)
 {
-fib[i] = fib[i - 1] + fib[i - 2];
-}
-for (int i = 0; i < n - 1; i++)
+if (i == 0)
+printf("%lo", j);
+else if (i == 1)
+printf(", %lo", k);
+else
 {
-printf("%lld, ", fib[i]);
+k += j;
+j = k - j;
+printf(", %lo", k);
 }
-printf("%lld\n", fib[n - 1]);
-return 0;
+++i;
+}
+printf("\n");
+return (0);
 }
