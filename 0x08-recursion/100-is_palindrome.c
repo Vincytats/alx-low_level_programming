@@ -27,6 +27,8 @@ if (n1 == n2 || n1 == n2 + 1)
 return (1);
 return (0 + comparator(s, n1 + 1, n2 - 1));
 }
+return (0);
+}
 /**
  * is_palindrome - detects if a string is palindrome
  * @s: string
