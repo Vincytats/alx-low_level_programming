@@ -1,5 +1,9 @@
 #include "main.h"
-                    	
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
 /**
  * _isdigit - checks for a digit (0 - 9)
  * @c: number to be checked
@@ -7,5 +11,5 @@
  */
 int _isdigit(int c)
 {
-return (c >= '0' && c <= '9');
+return isdigit(c);
 }
